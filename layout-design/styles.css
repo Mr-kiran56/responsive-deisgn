@@ -1,0 +1,281 @@
+@media  screen and (max-width:560px) {
+    
+.topsection{
+    display: none;
+}
+body{
+    margin: auto;
+    padding: 0;
+ align-items: center;
+ width: 375px;
+ 
+  
+}
+
+#image1{
+    width: 330px;
+    height:800px ;
+}
+.picture1{
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-size: 100% 100%;
+    height: 1100px;
+    width: 400px;
+  }
+#art{
+    color: #FFFFFF;
+
+    line-height: 90px;
+    padding-left:30px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ,inter;
+
+}
+#ham{
+    float: right;
+}
+.fontlayout{
+    margin-top: 200px;
+    margin-left: 30px;
+}
+#font1{
+    margin-top: 40px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;
+    
+    color: #FFFFFF;
+}
+#font2{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+#button{
+    margin-top: 19px;
+    padding: 7px;
+    width: 120px;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    color: #FFFFFF;
+    
+
+}
+.new{
+    font-size: 29px;
+    color: black;
+    font-weight: 900;
+    margin-top: 50px ;
+    margin-left: 30px;
+}
+
+.layout2{
+    width: 350px;
+    height: 800px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border:2px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: #d90202;
+    cursor: pointer;
+
+}
+#picture2{
+    width: 350px;
+    height: 450px;
+}
+.news1{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.date1{
+    color:#B7B7B7;
+    font-size:20px;
+}
+.news{
+     color: black;
+     margin-top: 30px;
+     font-weight:700;
+    font-size:30px;
+}
+.readmore{
+    color: #D9852C;
+    margin-top: 34px;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    font-weight: 500;
+}}
+
+@media  screen and (min-width:560px) {
+
+    
+body{
+    margin: auto;
+    padding: 0;
+ align-items: center;
+ width: 1400px;
+  
+}
+
+    .picture1{
+        background-image: url("Background.png");
+        background-repeat: no-repeat;
+        background-attachment: fixed; 
+      width:1440px;
+      height: 1024px;
+      }
+.flex{
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.topsection{
+    color: #FFFFFF;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    line-height: 100px;
+    float: right;
+    margin-right: 100px;
+}
+.button1{
+    background-color: transparent;
+    padding: 7px;
+    width: 120px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+    cursor: pointer;
+}
+.button1:hover{
+ background-color: #FFFFFF;
+ color: black;
+}
+#art{
+    color: #FFFFFF;
+
+    line-height: 90px;
+    margin-left:50px;
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ,inter;
+
+}
+#ham{
+    float: right;
+    display: none;
+
+}
+#Rectangle{
+    width:150px;
+ 
+}
+.fontlayout{
+    margin-top: 200px;
+    margin-left: 50px;
+    width: 600px;
+}
+#font1{
+    margin-top: 40px;
+    font-weight:900;
+    font-size: 60px;
+    line-height: 65px;
+    
+    color: #FFFFFF;
+}
+#font2{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-top: 20px;
+    line-height: 30px;
+}
+#button{
+    margin-top: 19px;
+    padding: 7px;
+    width: 150px;
+    font-size: 23px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 7px;
+    color: #FFFFFF;
+    
+
+}
+#button:hover{
+    background-color: azure;
+    color: black;
+}
+.new{
+    font-size: 38px;
+    color: black;
+    font-weight: 900;
+    margin-top: 50px ;
+    margin-left: 30px;
+}
+
+.layout2{
+    width: 350px;
+    height: 800px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border:2px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: #d90202;
+    cursor: pointer;
+
+}
+#picture2{
+    width: 350px;
+    height: 450px;
+}
+.news1{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 20px;
+}
+.date1{
+    color:#B7B7B7;
+    font-size:20px;
+}
+.news{
+     color: black;
+     margin-top: 30px;
+     font-weight:700;
+    font-size:30px;
+}
+.readmore{
+    color: #D9852C;
+    margin-top: 34px;
+    font-size: 20px;
+    float: right;
+    margin-right: 20px;
+    font-weight: 500;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
